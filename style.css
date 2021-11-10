@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+@font-face {
+font-family: 'Post No Bills Jaffna Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Post No Bills Jaffna Regular'), url('PostNoBillsJaffna-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Post No Bills Jaffna Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Post No Bills Jaffna Bold'), url('PostNoBillsJaffna-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Post No Bills Jaffna Light Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Post No Bills Jaffna Light Regular'), url('PostNoBillsJaffna-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Post No Bills Jaffna Medium Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Post No Bills Jaffna Medium Regular'), url('PostNoBillsJaffna-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Post No Bills Jaffna SemiBold Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Post No Bills Jaffna SemiBold Regular'), url('PostNoBillsJaffna-SemiBold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Post No Bills Jaffna ExtraBold Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Post No Bills Jaffna ExtraBold Regular'), url('PostNoBillsJaffna-ExtraBold.woff') format('woff');
+}
+*{
+    font-family: "PT Sans";
+    font-size: 12px;
+    color: gray;
+    text-decoration: none;
+}
+body {
+    overflow-x: hidden;
+}
+.color_second-line {
+    background-color: #0F0F0F;
+}
+.color_first-line {
+    background-color: #000;
+}
+
+.rel {
+    position: relative;
+    text-decoration: none;
+    
+}
+.second-line_right_block {
+    max-width: 500px;}
+.width {
+    max-width: 1090px;
+    width: 100%;
+}
+.LOGO {
+    font-family: 'Post No Bills Jaffna SemiBold Regular';
+    font-size: 36px;
+    color: white;
+}
+.LOGO_center {
+    width: 320px; 
+    height: 320px; 
+    font-size: 64px; 
+    
+    text-decoration: white; 
+ 
+}
+.shadow {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.shadow_footer {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.px-405 {
+    padding: 0 405px 0 405px;
+}
+.f_size {
+    font-size: 14px;
+}
+.f_size-12 {
+    font-size: 12px;
+}
+.height_1 {
+    height: 730px;
+}
+.height_2 {
+    height: 600px;
+}
+.height_3 {
+    height: 1289px;
+}
+.height_4 {
+    height: 362px;
+}
+.height_5 {
+    min-height: 400px;
+}
+.height_6 {
+    height: 50px;
+}
+.img_sizing {
+    object-fit: cover;
+    z-index: 1;
+}
+.img_2_sizing {
+    width: 880px;
+    object-fit: cover;
+    position: absolute;
+    
+}
+body {
+    background: #000;
+}
+.Playfair {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 36px;
+    font-style: "Bold Roman";
+    color: white;
+    
+}
+.Playfair_footer {
+    font-size: 24px;
+}
+.col-4_width {
+    width: 350px;
+}
+.col-4_mt-80     {
+    margin-top: 80px;
+}
+.card-title_mb-40 {
+    margin-bottom: 40px;
+}
+.card-body_bg-black {
+    background-color: black;
+}
+.card-text_color {
+    color: white;
+}
+.input-group_dim {
+    max-width: 300px;
+    height: 42px;
+}
+.btn-dark_bg-black {
+    background: black;
+}
+
+.Playfair_watch-name {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.fl_basis {
+    flex-basis: 260px;
+    flex-grow: 0;
+}
+.Playfair_watch-price {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 16px;
+    font-style: "Bold Roman";
+    color: #D0D0D0;
+}
+.Playfair_position {
+    position: absolute;
+    z-index: 1000;
+    top: 60%; 
+}
+hr {
+    width: 120px;
+    margin: 50px;
+}
+.abs hr {
+    position: absolute;
+    top: 55%;
+}
+.footer_img {
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.LOGO_details {
+    margin-top: 60px;
+    color: white; 
+    font-size: 16px;
+
+}
+@media (max-width: 800px) {
+   .LOGO_center {
+       font-size: 20px;
+       margin-top: 20px;
+   } 
+   
+   .LOGO_details {
+       margin-top: 10px;
+       font-size: 8px;
+   }
+}
